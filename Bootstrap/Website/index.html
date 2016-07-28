@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title></title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+	
+	<div class="container" id="main">
+		<div class="navbar navbar-default navbar-fixed-top"> 
+			<div class="container-fluid ">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button" >
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>	
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="/"><img src="images/logo.png" alt="Logo"></a>
+				<div class="navbar-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#"> Home</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Service <strong class="caret"></strong>	</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"> Beginner</a>
+								</li>
+
+								<li>
+									<a href="#"> Professional</a>
+								</li>
+
+								<li>
+									<a href="#"> Workshops</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li class="dropdown-header">More Services</li>
+
+								<li>
+									<a href="#"> Special offers</a>
+								</li>
+
+								<li>
+									<a href="#"> Get Social</a>
+								</li>
+							</ul><!-- End Dropdown Menu-->	
+						</li>						
+					</ul>
+
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="Search this site.." id="searchInput">
+						<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form>
+
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+								</li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+								</li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Sign Out</a>
+								</li>
+							</ul>
+						</li><!--End dropdown list-->
+					</ul><!--End Nav pull right-->
+				</div><!-- End navCollapse-->
+			</div><!--End Container-->
+		</div><!-- End Navbar-->	
+	</div><!--end main-->
+
+	<div class="container-fluid">	
+		<div class="carousel slide" id="myCarousel">
+
+			<!-- indicators-->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+
+			<!--Wrapper for slides-->
+			<div class="carousel-inner">
+				<div class="active item" id="slide1">
+					<div class="carousel-caption">
+						<h4>Photography is an art</h4>
+							<p>You don't take a photograph, you make it. </p>
+					</div><!-- End carousel caption-->
+				</div><!-- End item-->
+
+				<div class="item" id="slide2" >
+					<div class="carousel-caption">
+						<h4>Lens selection</h4>
+							<p>Use VRII lens for shake resistance instead IRII for far objects </p>
+					</div><!-- End carousel caption-->
+				</div><!-- End item-->
+
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>HDR Photography</h4>
+							<p>Photography can only represent the present. Once photographed, the subject becomes part of the past</p>
+					</div><!-- End carousel caption-->
+				</div><!-- End item-->
+			</div><!-- End carousel-inner-->
+
+			<!--Controls-->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div><!-- End my carousel-->
+	</div><!--End container-->
+
+	<div class="container" id="main">
+		<div class="row" id="bigCallout">
+			<div class="col-12">
+				<div class="alert alert-success alert-block fade in" id="successAlert">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<h4>Success!!</h4>
+						<p>Stay tuned. We will reach out to you soon.</p>
+				</div><!--End Alert-->
+				
+				<!-- VISIBLE ONLY ON SMALL DEVICES-->
+				<div class="well well-small visible-sm">
+					<a href="" class="btn btn-large btn-block btn-default">
+					<span class="glyphicon glyphicon-phone"></span> Feel free to call</a>
+				</div><!--End well-small-->
+				
+				<div class="well">
+					<div class="page-header">
+						<h1>Photography <small>Digital photography</small></h1>
+					</div><!--end page header-->
+					<p class="lead">In 1981, Sony unveiled the first consumer camera to use a charge-coupled device for imaging, eliminating the need for film: the Sony Mavica.</p>
+					<p>Digital imaging uses an electronic image sensor to record the image as a set of electronic data rather than as chemical changes on film. An important difference between digital and chemical photography is that chemical photography resists photo manipulation because it involves film and photographic paper, while digital imaging is a highly manipulative medium. This difference allows for a degree of image post-processing that is comparatively difficult in film-based photography and permits different communicative potentials and applications.</p>
+					<a href="" class="btn btn-large btn-primary" id="alertMe">Click to connect</a>
+					<a href="" class="btn btn-large btn-link">Link your pictures</a>
+				</div><!-- end well-->		
+ 			</div><!-- End Col_12-->
+		</div><!-- End bigCallout-->
+
+		<div class="row" id="featuresHeading">
+			<div class="col-12" style="margin-left:20px; margin-top:-20px;">
+				<h2>More Features </h2>
+					<p class="lead">Photography is the result of combining several technical discoveries.</p>
+			</div><!--End col_12-->
+		</div><!-- End featuresHeading-->
+
+		<div class="row" id="features">
+			<div class="col-sm-4 feature">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Gallery</h3>
+					</div><!--End panel-heading-->
+					
+					<div class="panel-body">
+						<img src="images/img/gallery.jpg" alt="gallery" class="img-circle">
+							<p>You don't take a photograph, you make it. The pictures are there, just take them.</p>
+							<a href="http://photography.nationalgeographic.com/photography/" target="_blank" class="btn btn-warning btn-block">Photography From Nat Geo</a>
+					</div><!--End panel-body-->
+				</div><!--End panel-->
+			</div><!--End feature-->
+
+			<div class="col-sm-4 feature feature">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">DSLR vs Point and Shoot Camera </h3>
+					</div><!--End panel-heading-->
+
+					<div class="panel-body">
+						<img src="images/img/gallery2.jpg" alt="gallery2" class="img-circle">
+							<p>The whole point of taking pictures is so that you don't have to explain things with words.</p>
+							<a href="https://photographylife.com/dslr-vs-point-and-shoot-camera" target="_blank" class="btn btn-danger btn-block">Pros and Cons of both cameras</a>
+					</div><!--End panel-body-->
+				</div><!--End panel-->
+			</div><!--End feature-->
+
+			<div class="col-sm-4 feature feature">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Best DSLR's </h3>
+					</div><!--End panel-heading-->
+
+					<div class="panel-body">
+						<img src="images/img/gallery1.jpg" alt="gallery1" class="img-circle">
+							<p>A photograph is a secret about a secret. The more it tells you the less you know.</p>
+							<a href="http://www.adorama.com/alc/tags/dslr" target="_blank" class="btn btn-info btn-block">The best DSLR for you</a>
+					</div><!--End panel-body-->
+				</div><!--End panel-->
+			</div><!--End feature-->
+		</div><!-- End features-->
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-6" style="margin-top:-10px;">
+				<h3>More Info </h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab"> Section 1</a></li>
+						<li><a href="#tab2" data-toggle="tab"> Section 2</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>My Location <small> More like my favourite chilling spot</small></h4>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.570109660292!2d77.61178381398308!3d12.935328519175066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackRoute!5e0!3m2!1sen!2sin!4v1469528432770" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<p>
+								Photographers control the camera and lens to "expose" the light-recording material to the required amount of light to form a "latent image" (on plate or film) or RAW file (in digital cameras) which, after appropriate processing, is converted to a usable image. Digital cameras use an electronic image sensor based on light-sensitive electronics such as charge-coupled device (CCD) or complementary metal-oxide-semiconductor (CMOS) technology. The resulting digital image is stored electronically.
+							</p>
+						</div><!--End tab pane-->
+
+						<div class="tab-pane" id="tab2">
+							<h4>High-dynamic-range imaging</h4>
+							<img src="images/img/hdrimage.jpg" class="thumbnail pull-left">
+							<p>
+								High-dynamic-range imaging (HDRI or HDR) is a technique used in imaging and photography to reproduce a greater dynamic range of luminosity than is possible with standard digital imaging or photographic techniques. The aim is to present a similar range of luminance as experienced through the human visual system. The human eye, through adaptation of the iris and other methods, adjusts constantly for the broad range of luminance present in the environment. The brain continuously interprets this information so that a viewer can see in a wide range of light conditions.
+							</p>							
+							<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for Modal Window</a>
+							<div class="modal fade" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">DSLR Camera</h4>
+										</div><!--End modal-header-->
+										
+										<div class="modal-body">
+											<h4>Digital single-lens reflex camera</h4>
+											<p>
+												A digital single-lens reflex camera (also called a digital SLR or DSLR) is a digital camera combining the optics and the mechanisms of a single-lens reflex camera with a digital imaging sensor, as opposed to photographic film. The reflex design scheme is the primary difference between a DSLR and other digital cameras.
+											</p>
+											<h4>Read more about DSLR's</h4>
+												<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="Would you rate me 5 stars?" data-content="I know you would..">Click here to read more</a>
+											<h4>Tootltip</h4>
+												<a href="#" data-original-title="This is a tooltip" rel="tooltip">This link </a>will take you to <a href="#" data-original-title="You just highlighted another tooltip" rel="tooltip">tooltip</a>
+											<hr>
+											<p>
+											<small class="muted">PS: This text is muted. Just a heads up </small>
+											</p>
+											<form class="form-horizontal">
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputName">Name</label>
+													<div class="col-lg-10">
+														<input class="form-control" id="inputName" placeholder="Name" type="text">										
+													</div><!--End col-lg-10-->
+												</div><!--End form-group-->
+
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputEmail">E-mail</label>
+													<div class="col-lg-10">
+														<input class="form-control" id="inputEmail" placeholder="E-mail" type="email">										
+													</div><!--End col-lg-10-->
+												</div><!--End form-group-->
+
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+													<div class="col-lg-10">
+														<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>								
+														<button class="btn btn-success btn-lg pull-left" type="submit">Send!</button>
+
+														<button class="btn btn-primary btn-lg pull-right" data-dismiss="modal" type="button">Close</button>
+													</div><!--End col-lg-10-->
+												</div><!--End form-group-->
+											</form>
+										</div><!--End modal-body-->
+									</div><!--End modal-content-->
+								</div><!--End modal-dialog-->
+							</div><!-- End myModal-->
+						</div><!--End tab pane-->
+					</div><!--End tab-content-->
+				</div><!--End tabbable-->
+			</div><!--End col-sm-6-->
+			
+			<div class="col-sm-6" style="margin-top:-10px;"">
+				<h3>Some more info</h3>
+				<p>
+					The ability to exchange lenses, to select the best lens for the current photographic need, and to allow the attachment of specialised lenses, is one of the key factors in the popularity of DSLR cameras, although this feature is not unique to the DSLR design and mirrorless interchangeable lens cameras are becoming increasingly popular.
+				</p>
+
+				<h4>Latest DSLR's from the best manufacturers</h4>
+				<div class="list-group">
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading"> NIKON-D500</h4>
+						<p class="list-group-item-text"> The Nikon D500 is a 20.9-megapixel professional digital single-lens reflex camera using an APS-C sensor. </p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading"> Canon EOS 350D</h4>
+						<p class="list-group-item-text"> The Canon EOS 350D (Canon EOS Digital Rebel XT in North America and the Canon EOS Kiss Digital N in Japan) is an 8.0-megapixel entry-level digital single-lens reflex camera manufactured by Canon. </p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading"> Hasselblad X1D-50c</h4>
+						<p class="list-group-item-text"> In June 2016, Hasselblad announced the X1D-50c, the first of a new line of medium-format mirrorless cameras. The X1D is comparable in size to current full-frame digital SLRs, but is equipped with a 43.8 x 32.9 mm CMOS sensor. </p>
+					</a>
+				</div><!--End List group-->	
+			</div><!--End col-sm-6-->
+		</div><!-- End moreinfo-->
+		<hr>
+		<div class="row" id="moreCourses">
+			<div class="col-12">
+				<h3 style="margin-left:20px; margin-top:-10px;">Learn more about DSLR lenses</h3>
+				<div class="thumbnails row">
+					<div class="col-sm-6">
+						<div class="thumbnail">
+							<img src="images/img/nikon-dslr-lens.jpg" alt="dslr">
+							<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span><sup>$</sup>1999</div>
+							<div class="caption">
+								<h3>Focal length and angle of view</h3>
+								<p>
+									The focal length of a lens, together with the size of the image sensor in the camera (or size of the 35 mm film), determines the angle of view. A lens is considered to be a "normal lens", in terms of its angle of view on a camera, when its focal length is approximately equal to the diagonal dimension of the film format or image sensor format.
+								</p>
+								
+								<p><a href="https://en.wikipedia.org/wiki/Lenses_for_SLR_and_DSLR_cameras" class="btn btn-primary btn-small" target="_blank">Detail on focal length</a><a href="https://en.wikipedia.org/wiki/Lenses_for_SLR_and_DSLR_cameras" target="_blank" class="btn btn-small btn-link">Learn more</a></p>
+							</div><!--End caption-->
+						</div><!--End thumbnail-->
+					</div><!--end col-6-->
+
+					<div class="col-sm-6">
+						<div class="thumbnail">
+							<img src="images/img/dslr.jpg" alt="dslrs">
+							<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span><sup>$</sup>2999</div>
+							<div class="caption">
+								<h3>Aperture </h3>
+								<p>
+									The aperture of a lens is the opening that regulates the amount of light that passes through the lens. It is controlled by a diaphragm inside the lens, which is in turn controlled either manually or by the exposure circuitry in the camera body.The relative aperture is specified as an f-number, the ratio of the lens focal length to its effective aperture diameter.
+								</p>
+								<p><a href="https://en.wikipedia.org/wiki/Lenses_for_SLR_and_DSLR_cameras" class="btn btn-primary btn-small" target="_blank">Detail on Aperture</a><a href="https://en.wikipedia.org/wiki/Lenses_for_SLR_and_DSLR_cameras" target="_blank" class="btn btn-small btn-link">Learn more</a>
+								</p>
+							</div><!--End caption-->
+						</div><!--End thumbnail-->
+					</div><!--End col-6-->
+				</div><!--End row-->
+			</div><!--End col-12-->
+		</div><!-- End morecourses-->
+	</div><!-- End container-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h6>Copyright &copy; 2016</h6>
+				</div><!--End col-sm-2-->
+
+				<div class="col-sm-4">
+					<h6>About Us</h6>
+					<p>
+						All rights reserved. <br> Reproduction in whole or in part without permission is prohibited.
+					</p>
+				</div><!--End col-sm-4-->
+
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Link</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div><!--End col-sm-2-->
+
+				<div class="col-sm-2">
+					<h6>Follow Us </h6>
+					<ul class="unstyled">
+						<li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+						<li><a href="https://www.facebook.com/">Facebook</a></li>
+						<li><a href="https://plus.google.com/">Google Plus</a></li>
+					</ul>
+				</div><!--End col-sm-2-->
+
+				<div class="col-sm-2">
+					<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Prakhar</h6>
+				</div><!--End col-sm-2-->
+			</div><!--End row-->
+		</div><!--End container-->
+	</footer>
+		<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+		<!-- First try for the online version of jQuery-->
+		<script src="http://code.jquery.com/jquery.js"></script>
+
+		<!-- If no online access, fallback to our hardcoded version of jQuery -->
+		<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js">')</script>
+
+		<!-- Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="includes/js/script.js"></script>
+</body>
+</html>
+
